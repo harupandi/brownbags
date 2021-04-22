@@ -18,4 +18,6 @@ Start the python virtual environment used by the Function and install requiremen
 pip install -r requirements.txt
 ```
 
+Create the local.settings.json file and modify it based on the [sample](https://github.com/harupandi/brownbags/blob/main/python/missing-modules/local.settings.json.example)
+
 Deploy to Azure Function App and test it https://<function app name>.azurewebsites.net/api/getUsers?id=1.
